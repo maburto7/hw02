@@ -9,9 +9,7 @@ int main(int argc, char ** argv) {
     int num;
     int choice;
     // Check if a command line argument was provided and assign it to num using atoi(), else call the random number generator function.
-    
-    // Run checks on initial value
-    
+        
     // Print the value of the number
     
     // Print the menu and ingest the choice selected by the user
