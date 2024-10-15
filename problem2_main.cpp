@@ -34,13 +34,19 @@ int main() {
   // Matrix Transpose
   int trans[AR_CAP][AR_CAP];
   matrixTranspose(A, n1, m1, trans);
-  cout << "Matrix Transpose of A is: ";
+  cout << "Matrix Transpose of A is: " << endl;
   print2DMatrix(trans, n1, m1);
 
   // Matrix Determinant 3D
+  int C[3][3] = {
+    { 1, 0, 0 },
+    { 0, 1, 0 },
+    { 0, 0, 1 }
+  };
+
   double det;
-  det = matrixDeterminant3D(A, n1, m1);
-  cout << "Matrix Determinant of A is: " << det << endl;
+  det = matrixDeterminant3D(C);
+  cout << "Matrix Determinant of C is: " << det << endl;
   
   return 0;
 }
