@@ -1,0 +1,115 @@
+Script started on 2024-10-16 22:20:09+00:00 [TERM="xterm-256color" TTY="/dev/pts/19" COLUMNS="198" LINES="16"]
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:20:09 ~/45C/hw02/hw02 
+$ [7mg++ -c src/gen_number.cpp -o lib/gen_number.o[27m[C[Cg++ -c src/gen_number.cpp -o lib/gen_number.o
+[?2004lAssembler messages:
+Fatal error: can't create lib/gen_number.o: No such file or directory
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:20:16 ~/45C/hw02/hw02 
+$ [7mmkdir -p scripts lib[27m
+[A[C[Cmkdir -p scripts lib
+[A
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:20:55 ~/45C/hw02/hw02 
+$ [7mscript scripts/problem1.scr [27m[C[Cscript scripts/problem1.scr 
+[?2004lScript started, output log file is 'scripts/problem1.scr'.
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:21:03 ~/45C/hw02/hw02 
+$ [7mg++ -c src/gen_number.cpp -o lib/gen_number.o[27m[C[Cg++ -c src/gen_number.cpp -o lib/gen_number.o
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:21:10 ~/45C/hw02/hw02 
+$ [7mg++ -c src/post_process.cpp -o lib/post_process.o[27m[C[Cg++ -c src/post_process.cpp -o lib/post_process.o
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:21:17 ~/45C/hw02/hw02 
+$ [7mg++ -c src/print_menu.cpp -o lib/print_menu.o[27m[C[Cg++ -c src/print_menu.cpp -o lib/print_menu.o
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:21:23 ~/45C/hw02/hw02 
+$ [7mg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o[27m[C[Cg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:21:34 ~/45C/hw02/hw02 
+$ [7m./problem1[27m[C[C./problem1
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:21:40 ~/45C/hw02/hw02 
+$ [7mls -l[27m[C[Cls -l
+[?2004ltotal 42K
+drwxrwxr-x 8 maburto maburto    0 Oct 16 22:15 [0m[01;34m.git[0m/
+-rw-rw-r-- 1 maburto maburto 1.7K Oct 16 22:14 .gitignore
+drwxrwxr-x 2 maburto maburto    0 Oct 16 22:14 [01;34m.vscode[0m/
+-rw-rw-r-- 1 maburto maburto 2.4K Oct 16 22:14 CMakeLists.txt
+-rw-rw-r-- 1 maburto maburto 1.1K Oct 16 22:14 LICENSE
+-rw-rw-r-- 1 maburto maburto   28 Oct 16 22:14 Makefile
+-rw-rw-r-- 1 maburto maburto  16K Oct 16 22:14 README.md
+drwxrwxr-x 2 maburto maburto    0 Oct 16 22:14 [01;34minclude[0m/
+-rw-rw-r-- 1 maburto maburto   47 Oct 16 22:14 input.txt
+drwx------ 2 maburto maburto    0 Oct 16 22:21 [01;34mlib[0m/
+-rwx------ 1 maburto maburto  17K Oct 16 22:21 [01;32mproblem1[0m*
+-rw-rw-r-- 1 maburto maburto  963 Oct 16 22:18 problem1_main.cpp
+-rw-rw-r-- 1 maburto maburto 1.3K Oct 16 22:14 problem2_main.cpp
+drwxrwxr-x 2 maburto maburto    0 Oct 16 22:20 [01;34mscripts[0m/
+drwxrwxr-x 2 maburto maburto    0 Oct 16 22:14 [01;34msrc[0m/
+drwxrwxr-x 5 maburto maburto    0 Oct 16 22:14 [01;34mtests[0m/
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:21:49 ~/45C/hw02/hw02 
+$ exit
+[?2004lexit
+Script done.
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:21:54 ~/45C/hw02/hw02 
+$ [7mg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o[27m[C[Cg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:27:40 ~/45C/hw02/hw02 
+$ [7mg++ -o program_name main.cpp src/gen_number.cpp src/post_process.cpp src/print_menu.cpp[27m
+[A[C[Cg++ -o program_name main.cpp src/gen_number.cpp src/post_process.cpp src/print_menu.cpp
+[A
+[?2004l[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[Kmain.cpp: No such file or directory
+compilation terminated.
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:33:23 ~/45C/hw02/hw02 
+$ [7maburto@jupyter-maburto 22:27:40 ~/45C/hw02/hw02 [27m
+[7m$ g++ -o program_name main.cpp src/gen_number.cpp src/post_process.cpp src/print_menu.cpp[27m
+[7mcc1plus: fatal error: main.cpp: No such file or directory[27m
+[7mcompilation terminated.[27m
+[7mmaburto@jupyter-maburto 22:33:23 ~/45C/hw02/hw02 [27m
+[7m$ [27m[K[A[A[A[A[A$ [7maburto@jupyter-maburto 22:27:40 ~/45C/hw02/hw02 [27m
+[7m$ g++ -o program_name main.cpp src/gen_number.cpp src/post_process.cpp src/print_menu.cpp[27m
+[7mcc1plus: fatal error: main.cpp: No such file or directory[27m
+[7mcompilation terminated.[27m
+[7mmaburto@jupyter-maburto 22:33:23 ~/45C/hw02/hw02 [27m
+[7m$ [27m[A[A[A[A[Aaburto@jupyter-maburto 22:27:40 ~/45C/hw02/hw02 
+$ g++ -o program_name main.cpp src/gen_number.cpp src/post_process.cpp src/print_menu.cpp
+cc1plus: fatal error: main.cpp: No such file or directory
+compilation terminated.
+maburto@jupyter-maburto 22:33:23 ~/45C/hw02/hw02 
+$ [7m./program_name 15[27m
+[A[C[C./program_name 15
+[A
+[?2004lbash: aburto@jupyter-maburto: command not found
+bash: $: command not found
+bash: cc1plus:: command not found
+bash: compilation: command not found
+bash: maburto@jupyter-maburto: command not found
+bash: $: command not found
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:34:58 ~/45C/hw02/hw02 
+$ [7m./program_name 15[27m
+[A[C[C./program_name 15
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: ./program_name: No such file or directory
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:35:08 ~/45C/hw02/hw02 
+$ [7mg++ problem1_main.cpp -o problem1_main[27m[C[Cg++ problem1_main.cpp -o problem1_main
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:37:06 ~/45C/hw02/hw02 
+$ [7m./problem1_main[27m[C[C./problem1_main
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:37:28 ~/45C/hw02/hw02 
+$ [7m./problem1_main[27m[C[C[1P./problem1_main 15
+[?2004l15]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:37:36 ~/45C/hw02/hw02 
+$ ./problem1_main 15
+[?2004l15]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:38:31 ~/45C/hw02/hw02 
+$ git add .
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:38:34 ~/45C/hw02/hw02 
+$ git commit -m ""T"e"s"t"i"n"g" "i"n"p"u"t"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'maburto@jupyter-maburto.(none)')
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:38:43 ~/45C/hw02/hw02 
+$ git config --global user.email ""m"a"b"u"r"t"o"/"2"[1P"[1P"@"u"c"i","e"d"[1P"[1P"[1P"."e"d"u"
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:39:07 ~/45C/hw02/hw02 
+$ git config --global user.usern[K[K[K[K[Kname ""M"i"a" "D"e"s"i"r"e"e" "A"b"u"r"t"o"
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:39:19 ~/45C/hw02/hw02 
+$ git config --global user.name "Mia Desiree Aburto"[2Pemail "maburto@uci.edu"[C[C[C[C[C[C[C[C[19Pmmit -m "Testing input"[C[C[C[C[C[Cadd .[K[C[C./problem1_main 15
+[?2004l15]0;maburto@jupyter-maburto:/home/maburt

@@ -16,8 +16,10 @@ int main(int argc, char ** argv) {
 
         if (num == 0) {
             cout << "Invalid input or '0' provided. Generating a random two-digit number." << endl;
-            //num = generateRandomNum();
+            num = generateNum();
         }
+        cout << num << "check"<<endl;
+        
     }
     // Print the value of the number
     
