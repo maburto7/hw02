@@ -1,5 +1,7 @@
 // complete the function source
 #include <iostream>
+#include <cmath>
+
 using namespace std;
 int generateNum(){
     srand(time(0)); //seed: https://www.digitalocean.com/community/tutorials/random-number-generator-c-plus-plus#importance-of-a-seed-value
