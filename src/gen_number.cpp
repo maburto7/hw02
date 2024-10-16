@@ -6,3 +6,7 @@ int generateNum(){
     return rand() % 90 + 10;  // creates number between 10 and 99
 }
 
+
+int doubleNum(int num){
+    return num + num;
+}

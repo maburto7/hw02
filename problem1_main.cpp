@@ -8,8 +8,7 @@ using namespace std;
 
 int main(int argc, char ** argv) {
     srand((unsigned) time(NULL));
-    int num;
-    int choice;
+    int num, choice, exp;
     // Check if a command line argument was provided and assign it to num using atoi(), else call the random number generator function.
     if (argc > 1) {
         num = atoi(argv[1]);
@@ -22,7 +21,6 @@ int main(int argc, char ** argv) {
 
     cout << "The number is: " << num << endl;
     // Print the value of the number
-    
     // Print the menu and ingest the choice selected by the user
     while (true){
         print_menu();
@@ -56,7 +54,7 @@ int main(int argc, char ** argv) {
                 }
 
         // check for overflow
-        if (num<0){ cout << "Overflow occured!"<<endl; num = randomGenerator();}
+        if (num<0){ cout << "Overflow occured!"<<endl; num = generateNum();}
         
         // check if prime   
         if (isNumPrime(num)){
