@@ -23,18 +23,58 @@ int main(int argc, char ** argv) {
     cout << "The number is: " << num << endl;
     // Print the value of the number
     
-    print_menu()
     // Print the menu and ingest the choice selected by the user
-        
+    while (true){
+        print_menu();
+        cin >> choice;
+        switch (choice){
+            case 1:
+                num = doubleNum(num);
+                break;
+            case 2:
+                num = reverseDigit(num);
+                break;
+            case 3:
+                cout << "Enter power (2, 3, or 4): ";
+                cin >> exp;
+                num = raisePow2_3_4(num, exp);
+                break;
+            case 4:
+                num = sumDigits(num);
+                break;
+            case 5:
+                num = raiseFirstDigitPowSecondDigit(num);
+                break;
+            case 6:
+                num = raiseFirstAndSecondDigitPowThirdDigit(num);
+                break;
+            case 9:
+                return 0;
+            default:
+                cout << "Invalid choice."<<endl;
+                break;
+                }
+
         // check for overflow
-       
-        // check if prime
+        if (num<0){ cout << "Overflow occured!"<<endl; num = randomGenerator();}
         
+        // check if prime   
+        if (isNumPrime(num)){
+            cout <<num << " is prime"<<endl;
+        } else{
+            cout <<num << " is not prime"<<endl;}
+
         // check if zero
+        if (num==0){cout<< "The number is now 0. Exiting program."<<endl; break;}
        
         // call addTen function
-        
+        if (num <10){num = addTen(num);}
+
         // repeat
+        
+    }
+        
+
         
     
 
