@@ -18,6 +18,7 @@ int main(int argc, char ** argv) {
             cout << "Invalid input or '0' provided. Generating a random two-digit number." << endl;
             //num = generateRandomNum();
         }
+    }
     // Print the value of the number
     
     // Print the menu and ingest the choice selected by the user
