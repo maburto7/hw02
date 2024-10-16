@@ -19,6 +19,8 @@ int main(int argc, char ** argv) {
     } else{
         num = generateNum();
     }
+
+    cout << "The number is: " << num;
     // Print the value of the number
     
     // Print the menu and ingest the choice selected by the user
