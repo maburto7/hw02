@@ -13,13 +13,11 @@ int main(int argc, char ** argv) {
     // Check if a command line argument was provided and assign it to num using atoi(), else call the random number generator function.
     if (argc > 1) {
         num = atoi(argv[1]);
-
-        if (num == 0) {
-            cout << "Invalid input or '0' provided. Generating a random two-digit number." << endl;
-            num = generateNum();
-        }
-        cout << num << "check"<<endl;
         
+        if (num == 0) {num = generateNum();}
+        
+    } else{
+        num = generateNum();
     }
     // Print the value of the number
     

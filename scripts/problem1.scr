@@ -112,4 +112,91 @@ $ git config --global user.email ""m"a"b"u"r"t"o"/"2"[1P"[1P"@"
 $ git config --global user.usern[K[K[K[K[Kname ""M"i"a" "D"e"s"i"r"e"e" "A"b"u"r"t"o"
 [?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:39:19 ~/45C/hw02/hw02 
 $ git config --global user.name "Mia Desiree Aburto"[2Pemail "maburto@uci.edu"[C[C[C[C[C[C[C[C[19Pmmit -m "Testing input"[C[C[C[C[C[Cadd .[K[C[C./problem1_main 15
-[?2004l15]0;maburto@jupyter-maburto:/home/maburt
+[?2004l15]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:39:24 ~/45C/hw02/hw02 
+$ ./problem1_main 15efsd
+[?2004l15]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:39:35 ~/45C/hw02/hw02 
+$ ./problem1_main 15efsd[Kefsd
+[?2004l15]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:40:03 ~/45C/hw02/hw02 
+$ ./problem1_main 15efsd[K[C[Cgit config --global user.name "Mia Desiree Aburto"[2Pemail "maburto@uci.edu"[C[C[C[C[C[C[C[C[19Pmmit -m "Testing input"[C[C[C[C[C[Cadd .[K[C[C./problem1_main 15[K[C[Cg++ problem1_main.cpp -o problem1_main
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:40:18 ~/45C/hw02/hw02 
+$ g++ problem1_main.cpp -o problem1_main[C[C[16P./problem1_main 15efsd
+[?2004l15check
+jaja]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:40:21 ~/45C/hw02/hw02 
+$ [7mg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o[27m[C[Cg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:42:02 ~/45C/hw02/hw02 
+$ g++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o[C[C./problem1_main 15efsd[K
+[?2004l15check
+jaja]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:43:59 ~/45C/hw02/hw02 
+$ ./problem1_main 15efsd
+[?2004l15check
+jaja]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:44:09 ~/45C/hw02/hw02 
+$ ./problem1_main 15efsd[C[Cg++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l[01m[Kproblem1_main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kproblem1_main.cpp:19:19:[m[K [01;31m[Kerror: [m[K‘[01m[KgenerateRandomNum[m[K’ was not declared in this scope; did you mean ‘[01m[KgenerateNum[m[K’?
+   19 |             num = [01;31m[KgenerateRandomNum[m[K();
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[KgenerateNum[m[K
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:44:39 ~/45C/hw02/hw02 
+$ g++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l/usr/bin/ld: /tmp/ccK9KZv3.o: in function `main':
+problem1_main.cpp:(.text+0x76): undefined reference to `generateNum()'
+collect2: error: ld returned 1 exit status
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:45:05 ~/45C/hw02/hw02 
+$ g++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l/usr/bin/ld: /tmp/ccE5AV9u.o: in function `main':
+problem1_main.cpp:(.text+0x76): undefined reference to `generateNum()'
+collect2: error: ld returned 1 exit status
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:45:34 ~/45C/hw02/hw02 
+$ g++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l/usr/bin/ld: /tmp/cctAz5RK.o: in function `main':
+problem1_main.cpp:(.text+0x76): undefined reference to `generateNum()'
+collect2: error: ld returned 1 exit status
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:47:40 ~/45C/hw02/hw02 
+$ git add .
+[?2004lg]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:47:46 ~/45C/hw02/hw02 
+$ git commit -mm "[K[K[K ""a"d"d"e"d" "g"e"n"e"r"a"t"e" "n"u"m"
+[?2004l[main 4527e7d] added generate num
+ 4 files changed, 124 insertions(+), 2 deletions(-)
+ create mode 100755 problem1_main
+ create mode 100644 scripts/problem1.scr
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:48:15 ~/45C/hw02/hw02 
+$ git commit -m "added generate num"[C[C[Kgit push
+[?2004lEnumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 24 threads
+Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 5.19 KiB | 885.00 KiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/maburto7/hw02.git
+   00c62d6..4527e7d  main -> main
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:52:52 ~/45C/hw02/hw02 
+$ git pushcommit -m "added generate num"[C[C[C[C[C[Cadd .[K[C[C[C++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l/usr/bin/ld: /tmp/ccF2UqxU.o: in function `main':
+problem1_main.cpp:(.text+0x76): undefined reference to `generateNum()'
+collect2: error: ld returned 1 exit status
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:53:01 ~/45C/hw02/hw02 
+$ [Ag++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l/usr/bin/ld: /tmp/ccQhMJNK.o: in function `main':
+problem1_main.cpp:(.text+0x76): undefined reference to `generateNum()'
+collect2: error: ld returned 1 exit status
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:54:45 ~/45C/hw02/hw02 
+$ g++ problem1_main.cpp -o problem1 lib/gen_number.o lib/print_menu.o lib/post_process.o
+[?2004l/usr/bin/ld: /tmp/ccNSP7wH.o: in function `main':
+problem1_main.cpp:(.text+0x76): undefined reference to `generateNum()'
+collect2: error: ld returned 1 exit status
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:54:55 ~/45C/hw02/hw02 
+$ git add .
+[?2004l]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:54:58 ~/45C/hw02/hw02 
+$ git commit -m ""f"i"x"e"d" "h"e"a"d"e"r" "f"i"l"e"
+[?2004l[main 4d82904] fixed header file
+ 1 file changed, 7 insertions(+)
+]0;maburto@jupyter-maburto:/home/maburto/45C/hw02/hw02[?2004hmaburto@jupyter-maburto 22:55:04 ~/45C/hw02/hw02 
+$ git push
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 24 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 395 bytes | 197.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas: 
