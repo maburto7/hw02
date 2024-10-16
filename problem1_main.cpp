@@ -20,11 +20,12 @@ int main(int argc, char ** argv) {
         num = generateNum();
     }
 
-    cout << "The number is: " << num;
+    cout << "The number is: " << num << endl;
     // Print the value of the number
     
+    print_menu()
     // Print the menu and ingest the choice selected by the user
-    
+        
         // check for overflow
        
         // check if prime
