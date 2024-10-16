@@ -63,7 +63,7 @@ int main(int argc, char ** argv) {
             cout <<num << " is not prime"<<endl;}
 
         // check if zero
-        if (num==0){cout<< "The number is now 0. Exiting program."<<endl; break;}
+        if (num==0){cout<< "The number is now 0. Exiting program."<< endl; break;}
        
         // call addTen function
         if (num <10){num = addTen(num);}
