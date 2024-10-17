@@ -1,7 +1,7 @@
 // complete the function source
 #include <iostream>
 #include <cmath>
-#include "gen_number.h"
+#include "../include/gen_number.h"
 
 using namespace std;
 int generateNum(){
@@ -59,7 +59,11 @@ int raiseFirstAndSecondDigitPowThirdDigit(int num){
         int third_digit = floor(temp_num %= 10);
         int first_second_digit = floor(num/10);
 
-        return pow(first_second_digit, third_digit);
+        if (third_digit <=4){return pow(first_second_digit, third_digit);}
+        else {
+            cout << "The last digit must be <= 4.";
+            return num;
+        }
 
     } else{
         cout << "The number must be three digits in length."<<endl;
