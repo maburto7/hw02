@@ -23,6 +23,7 @@ int main(int argc, char ** argv) {
     // Print the value of the number
     // Print the menu and ingest the choice selected by the user
     while (true){
+        cout <<endl;
         print_menu();
         cin >> choice;
         cout << endl;
