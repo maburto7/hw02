@@ -1,0 +1,177 @@
+[
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/student.dir/src/gen_number.cpp.o -c /home/ics-home/45C/HW02/src/gen_number.cpp",
+  "file": "/home/ics-home/45C/HW02/src/gen_number.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/student.dir/src/matrix.cpp.o -c /home/ics-home/45C/HW02/src/matrix.cpp",
+  "file": "/home/ics-home/45C/HW02/src/matrix.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/student.dir/src/post_process.cpp.o -c /home/ics-home/45C/HW02/src/post_process.cpp",
+  "file": "/home/ics-home/45C/HW02/src/post_process.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/student.dir/src/print_menu.cpp.o -c /home/ics-home/45C/HW02/src/print_menu.cpp",
+  "file": "/home/ics-home/45C/HW02/src/print_menu.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/test-setup.dir/tests/setup/catch_amalgamated.cpp.o -c /home/ics-home/45C/HW02/tests/setup/catch_amalgamated.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/setup/catch_amalgamated.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/custom/custom.cpp.o -c /home/ics-home/45C/HW02/tests/custom/custom.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/custom/custom.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/doubleNum_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/doubleNum_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/doubleNum_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/fileIO_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/fileIO_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/fileIO_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/generateNum_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/generateNum_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/generateNum_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/isPrime_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/isPrime_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/isPrime_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/matrixAddition_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixAddition_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixAddition_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/matrixDeterminant_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixDeterminant_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixDeterminant_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/matrixMultiplication_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixMultiplication_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixMultiplication_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/matrixSubtraction_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixSubtraction_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixSubtraction_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/matrixTranspose_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixTranspose_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixTranspose_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/raiseFirstAndSecondDigitPowThirdDigit_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/raiseFirstAndSecondDigitPowThirdDigit_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/raiseFirstAndSecondDigitPowThirdDigit_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/raiseFirstDigitPowSecondDigit_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/raiseFirstDigitPowSecondDigit_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/raiseFirstDigitPowSecondDigit_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/raisePow2_3_4_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/raisePow2_3_4_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/raisePow2_3_4_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/reverseDigit_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/reverseDigit_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/reverseDigit_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -I/home/ics-home/45C/HW02/tests -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/all-tests.dir/tests/public/sumDigits_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/sumDigits_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/sumDigits_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/custom.dir/tests/custom/custom.cpp.o -c /home/ics-home/45C/HW02/tests/custom/custom.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/custom/custom.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/doubleNum_test.dir/tests/public/doubleNum_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/doubleNum_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/doubleNum_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/fileIO_test.dir/tests/public/fileIO_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/fileIO_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/fileIO_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/generateNum_test.dir/tests/public/generateNum_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/generateNum_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/generateNum_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/isPrime_test.dir/tests/public/isPrime_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/isPrime_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/isPrime_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/matrixAddition_test.dir/tests/public/matrixAddition_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixAddition_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixAddition_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/matrixDeterminant_test.dir/tests/public/matrixDeterminant_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixDeterminant_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixDeterminant_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/matrixMultiplication_test.dir/tests/public/matrixMultiplication_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixMultiplication_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixMultiplication_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/matrixSubtraction_test.dir/tests/public/matrixSubtraction_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixSubtraction_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixSubtraction_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/matrixTranspose_test.dir/tests/public/matrixTranspose_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/matrixTranspose_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/matrixTranspose_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/raiseFirstAndSecondDigitPowThirdDigit_test.dir/tests/public/raiseFirstAndSecondDigitPowThirdDigit_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/raiseFirstAndSecondDigitPowThirdDigit_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/raiseFirstAndSecondDigitPowThirdDigit_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/raiseFirstDigitPowSecondDigit_test.dir/tests/public/raiseFirstDigitPowSecondDigit_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/raiseFirstDigitPowSecondDigit_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/raiseFirstDigitPowSecondDigit_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/raisePow2_3_4_test.dir/tests/public/raisePow2_3_4_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/raisePow2_3_4_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/raisePow2_3_4_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/reverseDigit_test.dir/tests/public/reverseDigit_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/reverseDigit_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/reverseDigit_test.cpp"
+},
+{
+  "directory": "/home/ics-home/45C/HW02",
+  "command": "/usr/bin/g++  -I/home/ics-home/45C/HW02/include -Wall -Werror -Wpedantic -Wcast-qual -Wdeprecated-copy -Wformat=2 -Wmisleading-indentation -Wmissing-declarations -Wnon-virtual-dtor -Wnull-dereference -Wundef -Wunused -Wwrite-strings -fsanitize=address -std=c++20 -o CMakeFiles/sumDigits_test.dir/tests/public/sumDigits_test.cpp.o -c /home/ics-home/45C/HW02/tests/public/sumDigits_test.cpp",
+  "file": "/home/ics-home/45C/HW02/tests/public/sumDigits_test.cpp"
+}
+]
