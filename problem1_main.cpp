@@ -35,6 +35,10 @@ int main(int argc, char ** argv) {
             case 3:
                 cout << "Enter power (2, 3, or 4): ";
                 cin >> exp;
+
+                if (exp>4 || exp<2){
+                    cout << "Only power 2, 3, or 4 is allowed.";
+                }
                 num = raisePow2_3_4(num, exp);
                 break;
             case 4:

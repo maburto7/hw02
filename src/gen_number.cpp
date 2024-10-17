@@ -1,6 +1,7 @@
 // complete the function source
 #include <iostream>
 #include <cmath>
+#include "gen_number.h"
 
 using namespace std;
 int generateNum(){

@@ -1,4 +1,6 @@
 // complete the source code
+#include "post_process.h"
+
 bool isNumPrime(int num){
     if (num <= 1){
         return false;
