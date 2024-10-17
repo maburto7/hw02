@@ -25,6 +25,7 @@ int main(int argc, char ** argv) {
     while (true){
         print_menu();
         cin >> choice;
+        cout << endl;
         switch (choice){
             case 1:
                 num = doubleNum(num);
@@ -65,6 +66,7 @@ int main(int argc, char ** argv) {
             cout <<num << " is prime"<<endl;
         } else{
             cout <<num << " is not prime"<<endl;}
+
 
         // check if zero
         if (num==0){cout<< "The number is now 0. Exiting program."<< endl; break;}
